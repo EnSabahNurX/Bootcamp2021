@@ -78,3 +78,12 @@ section {
 .button:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
 }
+
+
+.borderImg {
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #dddddd;
+    padding: 5px;
+}

@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgreen;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: auto;
+    height: 20px;
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: large;
+    background-color: black;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.circle {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    /* align-items: center; */
+}
+
+/* .small-circle {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50%;
+    
+} */
+
+.eye-container {
+    /* position: relative;
+    margin-top: 15%; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 10px;
+}
+
+.pupile {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25%;
+    margin-left: 50%;
+}
+
+.sad-mouth {
+    width: 20px;
+    height: 10px;
+    background-color: blueviolet;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 3px solid aqua;
+    border-bottom: 0px;
+    margin-left: 37px;
+    margin-top: 0px;
+}
+.happy-mouth {
+    width: 20px;
+    height: 10px;
+    background-color: blueviolet;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 3px solid aqua;
+    border-top: 0px;
+    margin-left: 37px;
+    margin-top: 0px;
+}
