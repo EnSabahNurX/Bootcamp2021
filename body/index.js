@@ -167,7 +167,7 @@
 // console.log(sentence.split(' ')[5])
 
 // const sentence = 'Come on baby light my fire'
-// const thirdWord = sentence.split(' ')[3]
+// const thirdWord = sentence.split(' ')[2]
 // console.log(thirdWord)
 
 
@@ -211,7 +211,7 @@
 // console.log(getValues(['23cm', '5.6cm', '1000cm']))
 
 
-// Using 'split' and 'filter' to count the number of bowels in a sentence.
+// Using 'split' and 'filter' to count the number of vowels in a sentence.
 // function getVowelCount(array) {
 //     return array.toLowerCase().split('').filter(letter => ['a', 'e', 'i', 'o', 'u'].includes(letter)).length
 // }
